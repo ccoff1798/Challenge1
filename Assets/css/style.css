@@ -30,7 +30,7 @@ header h1 span {
 }
 
 /* Controls the text at the top of the header bar */
-header aside {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -39,12 +39,12 @@ header aside {
 }
 
 /* Controls the group of text in top bar */
-header aside ul {
+header nav ul {
     list-style-type: none;
 }
 
 /* Controls order of list elements in untitled list */
-header aside ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -61,7 +61,7 @@ p {
 }
 
 /* Sets background photo */
-.mainPhoto {
+.hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -89,8 +89,30 @@ main {
     margin-left: 20px;
 }
 
+
+/* Controls the format of the sections in the main body of the website */
+.mainContent {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Sets size of photos on main sections */
+.mainContent img {
+    max-height: 200px;
+}
+
+/* Controls font size and spacing of subtitles of the sections */
+.mainContent h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
 /* Controls placement of box on right hand center side of screen */
-nav {
+.benefits {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -102,45 +124,24 @@ nav {
 }
 
 /* Controls the information stored in the nav bar on the side */
-nav article {
+.benefit {
     margin-bottom: 32px;
     color: white;
-
 }
 
 /* Controls the titles for the nav bar on side of screen */
-nav article h3 {
+.benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
 /* Controls formating of the pictures in the nav bar on side of screen */
-nav article img {
+.benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/* Controls the format of the articles in the main body of the website */
-main article {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* Sets size of photos on main articles */
-main article img {
-    max-height: 200px;
-}
-
-/* Controls font size and spacing of subtitles of the articles */
-main article h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
 /* Controls format of the footer */
 footer {
